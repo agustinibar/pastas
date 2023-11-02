@@ -1,0 +1,61 @@
+/* styles.module.css */
+
+/* Estilos para el contenedor principal */
+.homeContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para el título h1 centrado */
+  .centeredH1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  /* Estilos para el contenedor de tarjetas (cards) */
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Cambia el número de columnas según tus necesidades */
+    gap: 20px;
+  }
+  
+  /* Estilos para las tarjetas (cards) */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilos para las imágenes en las tarjetas */
+  .card img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los títulos h2 en las tarjetas */
+  .card h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Estilos para los títulos h3 en las tarjetas */
+  .card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Estilos para los párrafos en las tarjetas */
+  .card p {
+    font-size: 14px;
+    margin: 0;
+  }
+  

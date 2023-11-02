@@ -1,0 +1,57 @@
+/* RawMaterials.module.css */
+
+/* Estilos para el contenedor principal */
+.container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para el título del producto */
+  .productTitle {
+    font-size: 16px; /* Reduce el tamaño de la fuente del título */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los detalles del proveedor y los precios en fila */
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+  }
+  
+  /* Estilos para el título del proveedor */
+  .providerTitle {
+    font-size: 14px; /* Reduce el tamaño de la fuente del título del proveedor */
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 33%;
+  }
+  
+  /* Estilos para los precios y bordes en cada priceDetail */
+  .priceDetail {
+    font-size: 12px; /* Reduce el tamaño de la fuente de los precios */
+    width: 33%;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  /* Estilos para colores de filas (proveedores) */
+  .providerMAXICONSUMO {
+    background-color: #ff6666; /* Color de fondo para Maxiconsumo */
+  }
+  
+  .providerCARREFOUR {
+    background-color: #66b3ff; /* Color de fondo para Carrefour */
+  }
+  
+  .providerCHINO {
+    background-color: #8fd080;  /* Color de fondo para Chino */
+  }
+  
