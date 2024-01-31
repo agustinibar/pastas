@@ -18,7 +18,7 @@ export const Home = () => {
 
       <div className={styles.cardContainer}>
 
-        <Link to="/post" className={styles.card}>
+        <Link to="/products " className={styles.card}>
           <img src={foodStorage} alt="img" />
           <h2>Productos</h2>
           <p>Inserte productos nuevos o revise/actualice la lista de productos ya costeados</p>
